@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Amatic+SC:wght@400;700&family=Architects+Daughter&family=Baloo+2&family=Barlow+Semi+Condensed:wght@100&family=Changa:wght@200&family=DM+Sans&family=Indie+Flower&family=Irish+Grover&family=PT+Sans&family=Patrick+Hand&family=Qahiri&family=Quicksand:wght@300&family=Rampart+One&family=Shadows+Into+Light&family=Source+Sans+Pro:wght@700&family=Teko:wght@300&family=Ubuntu:wght@300&family=Varela+Round&family=Zen+Kaku+Gothic+Antique:wght@300&family=Zen+Kurenaido&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.container {
+  background-image: url(sport.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 80vw;
+  margin-top: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.black-friday {
+  border: solid 10px #f2ec33;
+  border-radius: 50% 15%;
+  height: 27vh;
+  width: 27vh;
+  position: relative;
+  left: -5vh;
+  top: 4vh;
+  background-color: #f2ec33;
+}
+.black-friday span {
+  font-size: 1rem;
+  font-family: Source Sans Pro;
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 3rem;
+  width: 5rem;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.grupines {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 3rem;
+  font-family: Source Sans Pro;
+  color: white;
+  width: 35vw;
+}
+.grupines span {
+  font-size: 3rem;
+  font-family: "Source Sans Pro";
+  color: #f2ec33;
+  text-transform: uppercase;
+}
+
+.pirmyn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=style.css.map */

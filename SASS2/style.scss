@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+@use "mixins";
+@use "var";
+@use "components";
+
+body{
+    height:100vh;
+    width:100%;
+    p{
+        font-size:5rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+
+    div .container{
+    @include fotoPlacement(flex, row, center, center, wrap);
+    
+        img{
+        @include fotoPlacement(flex, row, flex-start, flex-start, wrap);
+        height: 40px;
+        }
+    }   
+}

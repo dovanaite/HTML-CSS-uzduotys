@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- pagrindinis konteineris" -->
+     <div class="container">
+        <!-- forma -->
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-6">
+            <form class="mt-3">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >El.paštas</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  required
+                />
+                <div id="emailHelp" class="form-text">Čia labai svarbi info</div>
+              </div>
+              <div class="mb-3">
+                <label for="name" class="form-label">Vardas</label>
+                <input type="password" class="form-control" id="name" />
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault1"
+                />
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Man nepatinka šita forma
+                </label>
+              </div>
+              <div class="form-check mb-3">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault2"
+                  checked
+                />
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Man patinka šita forma
+                </label>
+              </div>
+              <select
+                class="form-select mb-3"
+                aria-label="Default select example"
+              >
+                <option selected>Pasirinkite miestą</option>
+                <option value="1">Klaipėda</option>
+                <option value="2">Kaunas</option>
+                <option value="3">Vilnius</option>
+              </select>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Įveskite tekstą</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
+              <div class="form-check mb-3">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Sutinku pateikti informaciją
+                </label>
+              </div>
+              <button type="submit" class="btn btn-outline-success">
+                Pateikti
+              </button>
+            </form>
+          </div>
+        <!-- foto -->
+          <div class="col-lg-6 d-none d-md-block d-lg-block m-3" style="width: 25rem;">
+            <img src="foto1.jfif" class="img-thumbnail" alt="foto" />
+          </div>
+        </div>
+      </div>
+</body>
+</html>

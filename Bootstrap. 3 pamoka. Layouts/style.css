@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    height: 92vh;
+}
+.color1{
+    background-color: #db93d9;
+}
+.color2{
+    background-color: #ad93db;
+}
+.color3{
+    background-color: #93b2db;
+}
+.color4{
+    background-color: #dbb593;
+}
+.color5{
+    background-color: #93dbc1;
+}
+.color6{
+    background-color: #a693db;
+}
+
+nav{
+    height:4vh;
+    padding-left:1vh;
+    background-color: #dbc793;
+}
+footer{
+    height:4vh;
+    padding-left:1vh;
+    background-color: #db9b93;
+}

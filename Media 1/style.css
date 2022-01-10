@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid-container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 20%);
+    /* gap: 1%; */
+}
+.pirmas{
+    background-color: #74ed9c;
+}
+.antras{
+    background-color: #ed74e7;
+}
+.trecias{
+    background-color: #74eda2;
+}
+.ketvirtas{
+    background-color: #edeb74;
+}
+.penktas{
+    background-color: #ed747a;
+}
+
+/* ANT DIDESNIO EKRANO */
+@media(min-width: 767px){
+    .grid-container{
+    /* background-color: #9e74ed; */
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        /* gap: 1%; */
+        grid-template-areas: 
+        "pirmas pirmas pirmas antras antras antras"
+        "pirmas pirmas pirmas antras antras antras"
+        "trecias trecias ketvirtas ketvirtas penktas penktas";
+    }
+
+    .pirmas{
+        background-color: #74aced;
+        grid-area: pirmas;
+    }
+    .antras{
+        background-color: #ed74e7;
+        grid-area: antras;
+    }
+    .trecias{
+        background-color: #74eda2;
+        grid-area: trecias;
+    }
+    .ketvirtas{
+        background-color: #edeb74;
+        grid-area: ketvirtas;
+    }
+    .penktas{
+        background-color: #74edba;
+        grid-area: penktas;
+    }
+    

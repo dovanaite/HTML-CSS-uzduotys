@@ -1,0 +1,58 @@
+@import 'var';
+@import 'mixins';
+@import 'components';
+*{
+    margin:0;
+}
+.container{
+    width: 50vh;
+    margin: 0 auto;
+    background-color: $bg;
+    height: 87vh;
+    
+    section{
+    color: $textColor;
+    }
+
+    h2{
+        text-align: center;
+        padding: 5vh;
+        font-size: 5vh;
+        @include coolBorder(5px, dotted);
+        @extend .font;
+        background-color: $h2Color;;
+    }
+    ul{
+        background-color: aquamarine;
+        margin-top: 5vh;
+        @include coolBorder(1px, solid);
+        ju
+
+        li{
+            list-style-type: kannada;       
+            padding: 1vh;
+        }
+    }
+    a{
+        text-decoration: none;
+        padding-right: 2vh;
+        color: $textColor;
+        &:hover{
+           color: $linkColor;
+        }
+        @extend .text, .font;
+    }
+    span{
+        @extend .button, .font;
+        &:hover{
+            background-color: $bg;
+         }
+    }
+    img{
+        width: 49.2vh;
+        margin-top: 5vh;
+        border: 3px solid;
+        object-fit: cover;
+    }
+    
+}

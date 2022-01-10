@@ -1,0 +1,158 @@
+@import "var";
+
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #30accf;
+}
+
+// SAULYTE
+#saule{
+    position: absolute;
+    left:1%;
+    top:1%;
+    border: 2px solid #fcba03;
+    width: 75px;
+    height: 75px;
+    border-radius:50%;
+    background-color: #e3a907;
+    box-shadow: 5px 5px 8px $sun-shadow, -5px -5px 8px $sun-shadow, -5px 5px 8px $sun-shadow, 5px -5px 8px $sun-shadow;
+    animation-name: sun;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes sun{
+    from {
+        left:1%;
+        top:1%;
+      }
+    to
+    {
+      left:10%;
+      top:10%;
+    }
+}
+
+// TEKSTAS
+
+#tekstas{
+    color:$sun;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:70vh;
+    width:70vw;
+    animation-name: tekstas;
+	animation-duration: 5s;
+    animation-iteration-count: infinite;
+    top:30%;
+}
+@keyframes tekstas {
+    0%  { transform: translate(0, 0);
+    color:#8a220f;
+    text-shadow: 1px 1px 2px #82521f;
+    transform: scale(1.1);}
+
+    25% { transform: translate(0px, 0);
+    color:#8a840f;
+    text-shadow: 1px 1px 2px #781f82;
+    transform: scale(1);}
+
+    50% { transform: translate(0px, 0px);
+    color:#2a8a0f;
+    text-shadow: 1px 1px 2px #821f2e;
+    transform: scale(1.1);}
+
+    75% { transform: translate(0, 0px);
+    color:#8a0f8a;
+    text-shadow: 1px 1px 2px #511f82;
+    transform: scale(1);}
+
+    100% { transform: translate(0, 0);
+    color:#8a0f32;
+    text-shadow: 1px 1px 2px #21821f;
+    transform: scale(1.1)}
+  }
+
+// TEKSTO PABAIGA
+
+#kotas{
+    border:2px solid $lapelis1;
+    height:220px;
+    width: 8px;
+    position: absolute;
+    bottom:0;
+    left:20vw;
+    background-color: $lapelis1;
+    animation-name: kotas;
+    // animation-delay: 1s;
+	animation-duration: 5s;
+}
+
+@keyframes kotas {
+    from {
+    bottom:-25vh;
+    left:20vw;
+        }
+    to
+      {
+    bottom:0;
+    left:20vw;
+      }
+    }
+
+
+#flower1{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left:17.9vw;
+    bottom:20vh;
+    border:2px solid $gelyte1;
+    border-radius: 50%;
+    background-color: $gelyte1;
+    animation-name: gelyte;
+	animation-duration: 5s;
+}
+
+@keyframes gelyte {
+    from {
+    bottom:-10vh;
+    left:17.9vw;
+        }
+    to
+      {
+    bottom:20vh;
+    left:17.9vw;
+      }
+    }
+
+
+#lapelis1{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left:20.35vw;
+    bottom:12vh;
+    border:2px solid $kotas;
+    border-radius: 50% 5%;
+    background-color: $kotas;
+    animation-name: lapelis;
+	animation-duration: 5s;
+}
+
+@keyframes lapelis {
+    from {
+    bottom:-15vh;
+    left:20.35vw;
+        }
+    to
+      {
+    bottom:12vh;
+    left:20.35vw;
+      }
+    }

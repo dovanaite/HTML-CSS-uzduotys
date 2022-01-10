@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    height: 90vh;
+}
+.foto{
+    object-fit: cover;
+    height: 25vh;
+}
+.row1{
+    height:33.5vh;
+}
+.row2{
+    height:33vh;
+}
+.row3{
+    height:25vh;
+}
+.color{
+    background-color: #2c927b;
+}
+.color2{
+    background-color: #206361;
+}

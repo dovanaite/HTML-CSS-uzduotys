@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #30accf;
+}
+
+#saule {
+  position: absolute;
+  left: 1%;
+  top: 1%;
+  border: 2px solid #fcba03;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #e3a907;
+  box-shadow: 5px 5px 8px #fcba03, -5px -5px 8px #fcba03, -5px 5px 8px #fcba03, 5px -5px 8px #fcba03;
+  -webkit-animation-name: sun;
+          animation-name: sun;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes sun {
+  from {
+    left: 1%;
+    top: 1%;
+  }
+  to {
+    left: 10%;
+    top: 10%;
+  }
+}
+
+@keyframes sun {
+  from {
+    left: 1%;
+    top: 1%;
+  }
+  to {
+    left: 10%;
+    top: 10%;
+  }
+}
+#tekstas {
+  color: #e3a907;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 70vw;
+  -webkit-animation-name: tekstas;
+          animation-name: tekstas;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  top: 30%;
+}
+
+@-webkit-keyframes tekstas {
+  0% {
+    transform: translate(0, 0);
+    color: #8a220f;
+    text-shadow: 1px 1px 2px #82521f;
+    transform: scale(1.1);
+  }
+  25% {
+    transform: translate(0px, 0);
+    color: #8a840f;
+    text-shadow: 1px 1px 2px #781f82;
+    transform: scale(1);
+  }
+  50% {
+    transform: translate(0px, 0px);
+    color: #2a8a0f;
+    text-shadow: 1px 1px 2px #821f2e;
+    transform: scale(1.1);
+  }
+  75% {
+    transform: translate(0, 0px);
+    color: #8a0f8a;
+    text-shadow: 1px 1px 2px #511f82;
+    transform: scale(1);
+  }
+  100% {
+    transform: translate(0, 0);
+    color: #8a0f32;
+    text-shadow: 1px 1px 2px #21821f;
+    transform: scale(1.1);
+  }
+}
+
+@keyframes tekstas {
+  0% {
+    transform: translate(0, 0);
+    color: #8a220f;
+    text-shadow: 1px 1px 2px #82521f;
+    transform: scale(1.1);
+  }
+  25% {
+    transform: translate(0px, 0);
+    color: #8a840f;
+    text-shadow: 1px 1px 2px #781f82;
+    transform: scale(1);
+  }
+  50% {
+    transform: translate(0px, 0px);
+    color: #2a8a0f;
+    text-shadow: 1px 1px 2px #821f2e;
+    transform: scale(1.1);
+  }
+  75% {
+    transform: translate(0, 0px);
+    color: #8a0f8a;
+    text-shadow: 1px 1px 2px #511f82;
+    transform: scale(1);
+  }
+  100% {
+    transform: translate(0, 0);
+    color: #8a0f32;
+    text-shadow: 1px 1px 2px #21821f;
+    transform: scale(1.1);
+  }
+}
+#kotas {
+  border: 2px solid #1a7326;
+  height: 220px;
+  width: 8px;
+  position: absolute;
+  bottom: 0;
+  left: 20vw;
+  background-color: #1a7326;
+  -webkit-animation-name: kotas;
+          animation-name: kotas;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+@-webkit-keyframes kotas {
+  from {
+    bottom: -25vh;
+    left: 20vw;
+  }
+  to {
+    bottom: 0;
+    left: 20vw;
+  }
+}
+
+@keyframes kotas {
+  from {
+    bottom: -25vh;
+    left: 20vw;
+  }
+  to {
+    bottom: 0;
+    left: 20vw;
+  }
+}
+#flower1 {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  left: 17.9vw;
+  bottom: 20vh;
+  border: 2px solid #6d1a73;
+  border-radius: 50%;
+  background-color: #6d1a73;
+  -webkit-animation-name: gelyte;
+          animation-name: gelyte;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+@-webkit-keyframes gelyte {
+  from {
+    bottom: -10vh;
+    left: 17.9vw;
+  }
+  to {
+    bottom: 20vh;
+    left: 17.9vw;
+  }
+}
+
+@keyframes gelyte {
+  from {
+    bottom: -10vh;
+    left: 17.9vw;
+  }
+  to {
+    bottom: 20vh;
+    left: 17.9vw;
+  }
+}
+#lapelis1 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 20.35vw;
+  bottom: 12vh;
+  border: 2px solid #225c18;
+  border-radius: 50% 5%;
+  background-color: #225c18;
+  -webkit-animation-name: lapelis;
+          animation-name: lapelis;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+@-webkit-keyframes lapelis {
+  from {
+    bottom: -15vh;
+    left: 20.35vw;
+  }
+  to {
+    bottom: 12vh;
+    left: 20.35vw;
+  }
+}
+
+@keyframes lapelis {
+  from {
+    bottom: -15vh;
+    left: 20.35vw;
+  }
+  to {
+    bottom: 12vh;
+    left: 20.35vw;
+  }
+}/*# sourceMappingURL=style.css.map */

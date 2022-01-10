@@ -1,0 +1,12 @@
+@mixin placement($flex, $justify, $align, $wrap){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: $wrap;
+}
+
+@mixin tekstas($font-size, $font-family, $font-color){
+    font-size: $font-size;
+    font-family: $font-family;
+    color: $font-color;
+}

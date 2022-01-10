@@ -1,0 +1,64 @@
+.button, .container span {
+  border-radius: 2px;
+  padding: 5px;
+  border: 2px #673e96 dotted;
+}
+
+.text, .container a {
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+.font, .container span, .container a, .container h2 {
+  font-family: monospace;
+}
+
+* {
+  margin: 0;
+}
+
+.container {
+  width: 50vh;
+  margin: 0 auto;
+  background-color: #eba3e1;
+  height: 87vh;
+}
+.container section {
+  color: #1b0636;
+}
+.container h2 {
+  text-align: center;
+  padding: 5vh;
+  font-size: 5vh;
+  border-radius: 5px;
+  border-style: dotted;
+  background-color: #9e83da;
+}
+.container ul {
+  background-color: aquamarine;
+  margin-top: 5vh;
+  border-radius: 1px;
+  border-style: solid;
+}
+.container ul ju li {
+  list-style-type: kannada;
+  padding: 1vh;
+}
+.container a {
+  text-decoration: none;
+  padding-right: 2vh;
+  color: #1b0636;
+}
+.container a:hover {
+  color: red;
+}
+.container span:hover {
+  background-color: #eba3e1;
+}
+.container img {
+  width: 49.2vh;
+  margin-top: 5vh;
+  border: 3px solid;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */

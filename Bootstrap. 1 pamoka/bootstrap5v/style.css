@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;   
+  }
+  .container-fluid, .col, [class*="col-"] {
+    /* height:100px;   */
+    padding-right: 0;
+    padding-left: 0;
+    }
+
+  .margin{
+    margin-left:2rem;
+  }
+  
